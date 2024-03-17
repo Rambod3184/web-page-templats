@@ -1,0 +1,202 @@
+@font-face{
+    font-family: shabnam;
+    src: url(../fonts/Shabnam-FD.woff2);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+::selection{
+    background: rgba(255, 0, 0, 0.664);
+    color: #fff;
+}
+
+body{
+    font-family: "shabnam";
+    background-image: url(/images/@Wallpaper_4K3D\(12792\)4K.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.canteiner{
+    max-width: 1216px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 86px;
+}
+.child-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+.titel-hed{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 20px;
+    color: #F1EAFF;
+    
+}
+.hed-icon{
+    width: 24px;
+    height: 24px;
+    color: #E55604;
+
+}
+.show-all{
+    text-decoration: none;
+    color: #E55604;
+
+}
+.child-2{
+    padding: 20px;
+    display: flex;
+    gap: 24px;
+
+}
+.box-1{
+    width: 304px;
+    padding: 20px;
+    background-color: rgb(245, 247, 248, 0.7);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    transition: all 1s 10ms;
+}
+.box-1:hover{
+    background-color: aqua;
+}
+.box-pic{
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+.box-titel{
+    line-height: 26px;
+    font-weight: normal;
+    margin-bottom: 15px;
+    font-size: 12px;
+    text-align: center;
+}
+.offer{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+.offer-number{
+    background-color: #E55604;
+    border-radius: 6px;
+    padding: 3px;
+    color: #fff;
+}
+.offer-pric{
+    color: gray;
+    position: relative;
+}
+.wraper{
+    display: flex;
+    justify-content: space-between;
+}
+.pric{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.pric-number{
+    font-weight: bold;
+}
+.pric-unit{
+    font-style: italic;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.rating-number{
+    font-weight: 600;
+    color: gray;
+}
+.rating-icon{
+    width: 20px;
+    height: 20px;
+    color: #E55604;
+}
+.offer-pric::after{
+    content: "";
+    display: block;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: absolute;
+    background-color: gray;
+    top: 0;
+    bottom: 0;
+    height: 2px;
+}
+.login{
+    margin: 10px;
+}
+.button-login{
+    background-color: rgba(229, 86, 4, 0.4);
+    border-radius: 8px;
+    padding: 4px 8px;
+    transition: all 2.5s 50ms;
+
+}
+.link-login{
+    font-size: 26px;
+    color: #EBE4D1;
+    text-decoration: none;
+}
+.button-login:hover{
+    background-color: #000000;
+    font-style: italic;
+    transform: scale(0.93);
+}
+.text{
+    width: 1280px;
+    background-image: linear-gradient(to left, rgb(169, 179, 136), rgb(185, 148, 112));
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 26px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 12px 8px;
+    /* height: 80px;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    font-style: italic;
+    text-overflow: ellipsis; */
+    transition: all 2s ease-out 80ms;
+}
+.text:hover{
+    width: 1600px;
+}
+.test{
+    width: 300px;
+    height: 300px;
+    margin: 10px auto;
+    background-color: #9BB8CD;
+    box-shadow: 1px 1px 36px #711DB0;
+    /* border-radius: 50%; */
+    transition: all 1s ease-in 100ms;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+.test:hover{
+    transform: scale(0.9);
+}
+.text-row-2{
+    font-size: 20px;
+    color: #000;
+    font-style: oblique;
+    background-color: #fff;
+    width: 500px;
+}
+.text-row{
+    
+}
